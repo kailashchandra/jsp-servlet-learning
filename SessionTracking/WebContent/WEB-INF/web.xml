@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<!-- ***********************for Cookies Mangement******************* -->
+	<servlet-mapping>
+		<url-pattern>/loginservlet</url-pattern>
+		<servlet-name>l</servlet-name>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>l</servlet-name>
+		<servlet-class>CookiesLoginLogout.LoginServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>p</servlet-name>
+		<url-pattern>/profileservlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>p</servlet-name>
+		<servlet-class>CookiesLoginLogout.ProfileServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<url-pattern>/Logout</url-pattern>
+		<servlet-name>lout</servlet-name>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>lout</servlet-name>
+		<servlet-class>CookiesLoginLogout.LogoutServlet</servlet-class>
+	</servlet>
+	
+	
+	<!-- *************************for Hidden Form field********************* -->
+	<servlet-mapping>
+		<url-pattern>/firstservlet</url-pattern>
+		<servlet-name>first</servlet-name>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>first</servlet-name>
+		<servlet-class>HiddenForm.FirstServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<url-pattern>/secondservlet</url-pattern>
+		<servlet-name>second</servlet-name>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>second</servlet-name>
+		<servlet-class>HiddenForm.SecondServlet</servlet-class>
+	</servlet>
+	
+	
+	<!-- ***************************HttpSession**************************************** -->
+	<servlet-mapping>
+		<url-pattern>/loginhttp</url-pattern>
+		<servlet-name>lhttp</servlet-name>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>lhttp</servlet-name>
+		<servlet-class>HttpSessionTest.LoginServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<url-pattern>/profilehttp</url-pattern>
+		<servlet-name>phttp</servlet-name>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>phttp</servlet-name>
+		<servlet-class>HttpSessionTest.ProfileServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<url-pattern>/logouthttp</url-pattern>
+		<servlet-name>louthttp</servlet-name>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>louthttp</servlet-name>
+		<servlet-class>HttpSessionTest.LogoutServlet</servlet-class>
+	</servlet>
+	
+	
+	<!-- *********************************filter Example********************************************* -->
+	<filter-mapping>
+		<url-pattern>/loginhttp</url-pattern>
+		<filter-name>f1</filter-name>
+	</filter-mapping>
+	<filter>
+		<filter-name>f1</filter-name>
+		<filter-class>HttpSessionTest.FilterTest</filter-class>
+		<init-param>
+			<param-name>p1</param-name>
+			<param-value>ParamParameter</param-value>
+		</init-param>
+	</filter>
+	<!-- ******************************Sample test#################################################### -->
+	<servlet-mapping>
+		<url-pattern>/sample</url-pattern>
+		<servlet-name>sample</servlet-name>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>sample</servlet-name>
+		<servlet-class>HttpSessionTest.sample</servlet-class>
+	</servlet>
+	
+	
+	<filter-mapping>
+		<url-pattern>/sample</url-pattern>
+		<filter-name>s</filter-name>
+	</filter-mapping>
+	<filter>
+		<filter-name>s</filter-name>
+		<filter-class>HttpSessionTest.FilterSample</filter-class>
+	</filter>
+		
+	
+	
+	
+	
+	
+	<welcome-file-list>
+		<!-- <welcome-file>Index.html</welcome-file> -->
+		<!-- <welcome-file>Index2.html</welcome-file> -->
+		<!-- <welcome-file>Index3.html</welcome-file> -->
+	</welcome-file-list>
+	
+	
+</web-app>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="RegistrationJSPTest">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="ojdbc6.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/D:/Programming/Jars/ojdbc6.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ojdbc14.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/D:/Programming/Jars/ojdbc14.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javax.servlet.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/D:/Programming/Jars/javax.servlet.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ojdbc5.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/D:/Programming/Jars/ojdbc5.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ojdbc6_g.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/D:/Programming/Jars/ojdbc6_g.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="RegistrationJSPTest"/>
+        <property name="java-output-path" value="/RegistrationJSPTest/build/classes"/>
+    </wb-module>
+</project-modules>

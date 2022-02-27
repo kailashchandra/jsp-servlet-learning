@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_144">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v7.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="D:/Programming/Jars/springjars/core/com.springsource.org.apache.commons.logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/Jars/springjars/core/com.springsource.org.apache.log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/Jars/springjars/core/org.springframework.asm-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/Jars/springjars/core/org.springframework.beans-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/Jars/springjars/core/org.springframework.context-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/Jars/springjars/core/org.springframework.core-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/Jars/springjars/core/org.springframework.expression-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/Jars/springjars/persistJdbc/com.springsource.org.apache.commons.pool-1.5.3.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/Jars/springjars/web/org.springframework.web.servlet-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/Jars/springjars/web/org.springframework.web-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/Jars/springjars/commons-dbcp-1.2.2.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/Jars/springjars/commons-pool-1.4.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/Jars/springjars/jstl-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/Jars/springjars/spring-dao-2.0.3.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/Jars/springjars/spring-jdbc-3.2.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/Jars/ojdbc5.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/Jars/ojdbc6.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/Jars/ojdbc6_g.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/Jars/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/Jars/javax.servlet.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/Jars/springjars/persistCore/org.springframework.transaction-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/Jars/springjars/spring-orm-2.5.1.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

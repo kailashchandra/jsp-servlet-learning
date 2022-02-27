@@ -1,0 +1,31 @@
+<web-app>
+ <display-name>RegistrationTest</display-name>
+  <welcome-file-list>
+    <welcome-file>Registration.html</welcome-file>
+  </welcome-file-list> 
+  
+ <listener>  
+ <listener-class>SimpleRegistration.Mylistener</listener-class>  
+ </listener>   
+  
+  <servlet-mapping>
+  	<url-pattern>/RegistrationServlet</url-pattern>
+  	<servlet-name>RS</servlet-name>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>RS</servlet-name>
+  	<servlet-class>SimpleRegistration.RegistrationServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<url-pattern>/ViewServlet</url-pattern>
+  	<servlet-name>VS</servlet-name>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>VS</servlet-name>
+  	<servlet-class>SimpleRegistration.ViewServlet</servlet-class>
+  </servlet>
+  
+</web-app>

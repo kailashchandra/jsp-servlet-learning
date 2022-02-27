@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+  <display-name>Registration JSP Test</display-name>
+  <welcome-file-list>
+    <welcome-file>Login.jsp</welcome-file>
+  </welcome-file-list>  
+  
+  <servlet-mapping>
+  	<url-pattern>/LoginCotroller</url-pattern>
+  	<servlet-name>loginController</servlet-name>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name>loginController</servlet-name>
+  	<servlet-class>Controller.LoginController</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<url-pattern>/RegisterController</url-pattern>
+  	<servlet-name>RegisterController</servlet-name>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name>RegisterController</servlet-name>
+  	<servlet-class>Controller.RegisterController</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<url-pattern>/ViewController</url-pattern>
+  	<servlet-name>ViewController</servlet-name>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name>ViewController</servlet-name>
+  	<servlet-class>Controller.ViewController</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<url-pattern>/DeleteController</url-pattern>
+  	<servlet-name>DeleteController</servlet-name>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name>DeleteController</servlet-name>
+  	<servlet-class>Controller.DeleteController</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<url-pattern>/UpdateController</url-pattern>
+  	<servlet-name>UpdateController</servlet-name>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name>UpdateController</servlet-name>
+  	<servlet-class>Controller.UpdateController</servlet-class>
+  </servlet>
+  
+</web-app>
